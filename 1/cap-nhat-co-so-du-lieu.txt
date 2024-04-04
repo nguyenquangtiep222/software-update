@@ -1,0 +1,182 @@
+-- Tạo bảng tạm thời cho bảng products
+CREATE TABLE IF NOT EXISTS products_temp (
+    product_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    product_code TEXT UNIQUE,
+    product_name TEXT UNIQUE,
+    product_name_ascii TEXT,
+    category_id INTEGER,
+    unit_id INTEGER,
+    price_id INTEGER,
+    stock_quantity DOUBLE, -- Chuyển đổi kiểu dữ liệu
+    sold_quantity DOUBLE,  -- Chuyển đổi kiểu dữ liệu
+    note TEXT,
+    status INTEGER,
+    status_value TEXT,
+    is_deleted INTEGER,
+    modified_date DATE,
+    created_date DATE
+);
+
+-- Sao chép dữ liệu từ bảng products sang bảng tạm thời
+INSERT INTO products_temp SELECT * FROM products;
+
+-- Xóa bảng products cũ
+DROP TABLE IF EXISTS products;
+
+-- Đổi tên bảng tạm thời thành tên của bảng products
+ALTER TABLE products_temp RENAME TO products;
+
+-- Tạo bảng tạm thời cho bảng products_fts
+CREATE VIRTUAL TABLE IF NOT EXISTS products_fts_temp USING fts5 (
+    product_id UNINDEXED,
+    product_code UNINDEXED,
+    product_name,
+    product_name_ascii,
+    category_id UNINDEXED,
+    unit_id UNINDEXED,
+    price_id UNINDEXED,
+    stock_quantity UNINDEXED,
+    sold_quantity UNINDEXED,
+    note UNINDEXED,
+    status UNINDEXED,
+    status_value UNINDEXED,
+    is_deleted UNINDEXED,
+    modified_date UNINDEXED,
+    created_date UNINDEXED
+);
+
+-- Sao chép dữ liệu từ bảng products_fts sang bảng tạm thời
+INSERT INTO products_fts_temp SELECT * FROM products_fts;
+
+-- Xóa bảng products_fts cũ
+DROP TABLE IF EXISTS products_fts;
+
+-- Đổi tên bảng tạm thời thành tên của bảng products_fts
+ALTER TABLE products_fts_temp RENAME TO products_fts;
+
+-- Tạo bảng tạm thời cho bảng inventory_check_details
+CREATE TABLE IF NOT EXISTS inventory_check_details_temp (
+    inventory_check_detail_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    inventory_check_id INTEGER,
+    product_id INTEGER,
+    price DECIMAL,
+    quantity DOUBLE, -- Chuyển đổi kiểu dữ liệu
+    total DECIMAL,
+    current_quantity DOUBLE, -- Chuyển đổi kiểu dữ liệu
+    current_total DECIMAL,
+    note TEXT,
+    is_deleted INTEGER,
+    modified_date DATE,
+    created_date DATE
+);
+
+-- Sao chép dữ liệu từ bảng inventory_check_details sang bảng tạm thời
+INSERT INTO inventory_check_details_temp SELECT * FROM inventory_check_details;
+
+-- Xóa bảng inventory_check_details cũ
+DROP TABLE IF EXISTS inventory_check_details;
+
+-- Đổi tên bảng tạm thời thành tên của bảng inventory_check_details
+ALTER TABLE inventory_check_details_temp RENAME TO inventory_check_details;
+
+-- Tạo bảng tạm thời cho bảng invoice_details
+CREATE TABLE IF NOT EXISTS invoice_details_temp (
+    invoice_detail_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    invoice_id INTEGER,
+    product_id INTEGER,
+    quantity DOUBLE, -- Chuyển đổi kiểu dữ liệu
+    purchase_price DECIMAL,
+    price DECIMAL,
+    discount DECIMAL,
+    discount_ratio DOUBLE,
+    total DECIMAL,
+    note TEXT,
+    is_deleted INTEGER,
+    modified_date DATE,
+    created_date DATE
+);
+
+-- Sao chép dữ liệu từ bảng invoice_details sang bảng tạm thời
+INSERT INTO invoice_details_temp SELECT * FROM invoice_details;
+
+-- Xóa bảng invoice_details cũ
+DROP TABLE IF EXISTS invoice_details;
+
+-- Đổi tên bảng tạm thời thành tên của bảng invoice_details
+ALTER TABLE invoice_details_temp RENAME TO invoice_details;
+
+-- Tạo bảng tạm thời cho bảng return_invoice_details
+CREATE TABLE IF NOT EXISTS return_invoice_details_temp (
+    return_invoice_detail_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    return_invoice_id INTEGER,
+    product_id INTEGER,
+    quantity DOUBLE, -- Chuyển đổi kiểu dữ liệu
+    purchase_price DECIMAL,
+    price DECIMAL,
+    discount DECIMAL,
+    discount_ratio DOUBLE,
+    total DECIMAL,
+    note TEXT,
+    is_deleted INTEGER,
+    modified_date DATE,
+    created_date DATE
+);
+
+-- Sao chép dữ liệu từ bảng return_invoice_details sang bảng tạm thời
+INSERT INTO return_invoice_details_temp SELECT * FROM return_invoice_details;
+
+-- Xóa bảng return_invoice_details cũ
+DROP TABLE IF EXISTS return_invoice_details;
+
+-- Đổi tên bảng tạm thời thành tên của bảng return_invoice_details
+ALTER TABLE return_invoice_details_temp RENAME TO return_invoice_details;
+
+-- Tạo bảng tạm thời cho bảng purchase_order_details
+CREATE TABLE IF NOT EXISTS purchase_order_details_temp (
+    purchase_order_detail_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    purchase_order_id INTEGER,
+    product_id INTEGER,
+    quantity DOUBLE, -- Chuyển đổi kiểu dữ liệu
+    price DECIMAL,
+    discount DECIMAL,
+    discount_ratio DOUBLE,
+    total DECIMAL,
+    note TEXT,
+    is_deleted INTEGER,
+    modified_date DATE,
+    created_date DATE
+);
+
+-- Sao chép dữ liệu từ bảng purchase_order_details sang bảng tạm thời
+INSERT INTO purchase_order_details_temp SELECT * FROM purchase_order_details;
+
+-- Xóa bảng purchase_order_details cũ
+DROP TABLE IF EXISTS purchase_order_details;
+
+-- Đổi tên bảng tạm thời thành tên của bảng purchase_order_details
+ALTER TABLE purchase_order_details_temp RENAME TO purchase_order_details;
+
+-- Tạo bảng tạm thời cho bảng return_purchase_order_details
+CREATE TABLE IF NOT EXISTS return_purchase_order_details_temp (
+    return_purchase_order_detail_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    return_purchase_order_id INTEGER,
+    product_id INTEGER,
+    quantity DOUBLE, -- Chuyển đổi kiểu dữ liệu
+    price DECIMAL,
+    discount DECIMAL,
+    discount_ratio DOUBLE,
+    total DECIMAL,
+    note TEXT,
+    is_deleted INTEGER,
+    modified_date DATE,
+    created_date DATE
+);
+
+-- Sao chép dữ liệu từ bảng return_purchase_order_details sang bảng tạm thời
+INSERT INTO return_purchase_order_details_temp SELECT * FROM return_purchase_order_details;
+
+-- Xóa bảng return_purchase_order_details cũ
+DROP TABLE IF EXISTS return_purchase_order_details;
+
+-- Đổi tên bảng tạm thời thành tên của bảng return_purchase_order_details
+ALTER TABLE return_purchase_order_details_temp RENAME TO return_purchase_order_details;

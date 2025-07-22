@@ -15,11 +15,12 @@ update|https://drive.google.com/file/d/...|v1.0.0 (08/08/2025)
 # - <loại phiên bản>: 'v' = VIP (đầy đủ tính năng), 'l' = Limited (bị giới hạn).
 # - <ngày hết hạn>: Dạng dd/MM/yyyy. Tool không hoạt động sau ngày này.
 # - <SĐT hoặc MST>: Số điện thoại hoặc MST để quản lý người dùng.
-# - <trạng thái>: 'o' hoặc bỏ trống. Không ảnh hưởng.
+# - <trạng thái>: 'o' hoặc bỏ trống (không ràng buộc MST) hoặc ghi MST để ràng buộc.
 # - <ghi chú>: Tùy ý nội bộ: tên người, máy, ngày cài,...
 
-key979ebe1c79e9ad87611c94dec6395|v|01/01/2030|0902965789|o|ngày cài: 01/01/2025
-keyabcd1234cba9876abcd1234cba9876|l|01/01/2030|0941891456|o|ngày cài: 01/01/2025
+key7b3787f0f927346dd50d1a453|v|01/01/2030|0902965789|o|ngày cài: 01/01/2025
+key7b3787f0f927346dd50d1a453|v|01/01/2030|0902965789|0111082696|ngày cài: 01/01/2025
+key7b3787f0f927346dd50d1a453|l|01/01/2030|0941891456|o|ngày cài: 01/01/2025
 
 
 # ------------------ KẾT THÚC FILE ------------------

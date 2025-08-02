@@ -3,7 +3,7 @@
 	<version>1.0.0.1</version>
 	<url>https://raw.githubusercontent.com/nguyenquangtiep222/software-update/main/dev-tools/update.zip</url>
 	<changelog>https://github.com/nguyenquangtiep222/software-update/releases</changelog>
-	<mandatory>true</mandatory>
+	<mandatory mode="2">true</mandatory>
 </item>
 
 <!--

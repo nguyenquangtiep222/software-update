@@ -27,37 +27,37 @@
                 "id": "tax",
                 "name": "Thuế điện tử",
                 "description": "",
-                "isEnabled": false
+                "isEnabled": true
             },
             {
                 "id": "invoice",
                 "name": "Hóa đơn điện tử",
                 "description": "",
-                "isEnabled": false
+                "isEnabled": true
             },
             {
                 "id": "qr",
                 "name": "Thanh toán chuyển khoản",
                 "description": "",
-                "isEnabled": false
+                "isEnabled": true
             },
             {
                 "id": "sync",
                 "name": "Đồng bộ hóa đơn",
                 "description": "",
-                "isEnabled": false
+                "isEnabled": true
             },
             {
                 "id": "textedit",
                 "name": "Chỉnh sửa văn bản",
                 "description": "",
-                "isEnabled": false
+                "isEnabled": true
             },
             {
                 "id": "usermanual",
                 "name": "Hướng dẫn sử dụng",
                 "description": "",
-                "isEnabled": false
+                "isEnabled": true
             }
         ],
         "binding": {

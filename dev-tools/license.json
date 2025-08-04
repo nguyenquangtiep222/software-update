@@ -17,46 +17,46 @@
         "address": "",
         "note": ""
     },
-    "createdDate": "2025-08-03T19:16:30.2184343Z",
-    "fromDate": "2025-08-03T19:16:30.2184343Z",
-    "toDate": "2030-08-18T19:16:30.2184343Z",
+    "createdDate": "2025-08-01T00:00:00.0000000Z",
+    "fromDate": "2025-08-01T00:00:00.0000000Z",
+    "toDate": "2025-08-01T00:00:00.0000000Z",
     "status": "active",
     "modules": [
         {
             "id": "tax",
             "name": "Thuế điện tử",
             "description": "",
-            "isEnabled": false
+            "isEnabled": true
         },
         {
             "id": "invoice",
             "name": "Hóa đơn điện tử",
             "description": "",
-            "isEnabled": false
+            "isEnabled": true
         },
         {
             "id": "qr",
             "name": "Thanh toán chuyển khoản",
             "description": "",
-            "isEnabled": false
+            "isEnabled": true
         },
         {
             "id": "sync",
             "name": "Đồng bộ hóa đơn",
             "description": "",
-            "isEnabled": false
+            "isEnabled": true
         },
         {
             "id": "textedit",
             "name": "Chỉnh sửa văn bản",
             "description": "",
-            "isEnabled": false
+            "isEnabled": true
         },
         {
             "id": "usermanual",
             "name": "Hướng dẫn sử dụng",
             "description": "",
-            "isEnabled": false
+            "isEnabled": true
         }
     ],
     "binding": {

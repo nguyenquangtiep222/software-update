@@ -1,7 +1,7 @@
 [
     {
-        "id": "02f863e2-95d3-42ec-9d17-bc4858216e44",
-        "key": "PT1Y7-DQB7N-07QL6-5P2KW-NQKT8",
+        "id": "586d9fc3-8555-450c-b66b-6735cace1c04",
+        "key": "ALZ1Y-236Q6-J7HYF-0C00H-QQ3UC",
         "issuer": {
             "name": "Nguyễn Quang Tiệp",
             "contactNumber": "(+84)90 29 65789",
@@ -20,41 +20,41 @@
         },
         "createdDate": "2025-08-01T00:00:00.0000000Z",
         "fromDate": "2025-08-01T00:00:00.0000000Z",
-        "toDate": "2030-08-01T00:00:00.0000000Z",
+        "toDate": "2025-08-01T00:00:00.0000000Z",
         "status": "active",
         "modules": [
             {
-                "id": "tax",
+                "id": "2b0cd456-095d-4fcd-ae38-35bd9663b410",
                 "name": "Thuế điện tử",
                 "description": "",
                 "isEnabled": true
             },
             {
-                "id": "invoice",
+                "id": "7bc08225-de26-41ed-8b97-8096bd739567",
                 "name": "Hóa đơn điện tử",
                 "description": "",
                 "isEnabled": true
             },
             {
-                "id": "qr",
+                "id": "d6bd6503-65bb-47c4-9d97-d0a031c84678",
                 "name": "Thanh toán chuyển khoản",
                 "description": "",
                 "isEnabled": true
             },
             {
-                "id": "sync",
+                "id": "464d26af-1de6-4c54-9be9-e7d6d8a3982c",
                 "name": "Đồng bộ hóa đơn",
                 "description": "",
                 "isEnabled": true
             },
             {
-                "id": "textedit",
+                "id": "8553265a-6786-4b58-8e12-76ce9593128f",
                 "name": "Chỉnh sửa văn bản",
                 "description": "",
                 "isEnabled": true
             },
             {
-                "id": "usermanual",
+                "id": "151d0979-1187-4c6c-a45b-734fbd82f0ef",
                 "name": "Hướng dẫn sử dụng",
                 "description": "",
                 "isEnabled": true

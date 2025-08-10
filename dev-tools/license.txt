@@ -42,12 +42,6 @@
                 "isEnabled": true
             },
             {
-                "id": "464d26af-1de6-4c54-9be9-e7d6d8a3982c",
-                "name": "Đồng bộ hóa đơn",
-                "description": "",
-                "isEnabled": true
-            },
-            {
                 "id": "8553265a-6786-4b58-8e12-76ce9593128f",
                 "name": "Chỉnh sửa văn bản",
                 "description": "",

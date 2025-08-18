@@ -1,13 +1,13 @@
 [
     {
-        "id": "586d9fc3-8555-450c-b66b-6735cace1c04",
+        "id": "761294c8-d7b7-44a5-a3eb-d757baf53e15",
         "key": "ALZ1Y-236Q6-J7HYF-0C00H-QQ3UC",
         "issuer": {
             "name": "Nguyễn Quang Tiệp",
             "contactNumber": "(+84)90 29 65789",
             "identificationNumber": "",
             "email": "nguyenquangtiep222@gmail.com",
-            "address": "Thôn Tiền Phong, Xã An Khánh, Thành phố Hà Nội, Việt Nam",
+            "address": "Thành phố Hà Nội, Việt Nam",
             "note": "Quản trị viên"
         },
         "licensee": {
@@ -20,35 +20,41 @@
         },
         "createdDate": "2025-08-01T00:00:00.0000000Z",
         "fromDate": "2025-08-01T00:00:00.0000000Z",
-        "toDate": "2030-08-01T00:00:00.0000000Z",
+        "toDate": "2025-08-01T00:00:00.0000000Z",
         "status": "active",
         "modules": [
             {
-                "id": "2b0cd456-095d-4fcd-ae38-35bd9663b410",
+                "id": "5388fcb4-642b-45dd-baba-71e5c31bc092",
                 "name": "Thuế điện tử",
                 "description": "",
                 "isEnabled": true
             },
             {
-                "id": "7bc08225-de26-41ed-8b97-8096bd739567",
+                "id": "aa5d4d11-5b71-4a87-a03a-01b52ab500e5",
                 "name": "Hóa đơn điện tử",
                 "description": "",
                 "isEnabled": true
             },
             {
-                "id": "d6bd6503-65bb-47c4-9d97-d0a031c84678",
-                "name": "Thanh toán chuyển khoản",
+                "id": "087894f5-eee4-467e-b554-da9f6bf2b104",
+                "name": "Thanh toán QR",
                 "description": "",
                 "isEnabled": true
             },
             {
-                "id": "8553265a-6786-4b58-8e12-76ce9593128f",
-                "name": "Chỉnh sửa văn bản",
+                "id": "408b8139-37a9-4b54-a01f-ea0bf24b3015",
+                "name": "Đồng bộ bảng tính",
                 "description": "",
                 "isEnabled": true
             },
             {
-                "id": "151d0979-1187-4c6c-a45b-734fbd82f0ef",
+                "id": "ce12f702-5e63-4583-bdd1-5663525791a5",
+                "name": "Chỉnh sửa tài liệu",
+                "description": "",
+                "isEnabled": true
+            },
+            {
+                "id": "eef0de4b-b5e3-4d97-a488-bf4f84a430bf",
                 "name": "Hướng dẫn sử dụng",
                 "description": "",
                 "isEnabled": true
@@ -56,8 +62,7 @@
         ],
         "binding": {
             "hardwareIds": [
-                "178BFBFF00A40F41PPZGL00WBGO0C95CG2211G15",
-                "BFEBFBFF000806E9/BJJM0G2/CN1296374U0679/BJJM0G2"
+                "178BFBFF00A40F41PPZGL00WBGO0C95CG2211G15"
             ],
             "maxMachines": 5
         },

@@ -62,7 +62,8 @@
         ],
         "binding": {
             "hardwareIds": [
-                "178BFBFF00A40F41PPZGL00WBGO0C95CG2211G15"
+                "178BFBFF00A40F41PPZGL00WBGO0C95CG2211G15",
+                "BFEBFBFF000806E9/BJJM0G2/CN1296374U0679/BJJM0G2"
             ],
             "maxMachines": 5
         },

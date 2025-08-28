@@ -5,20 +5,3 @@
 	<changelog>https://github.com/nguyenquangtiep222/software-update/releases</changelog>
 	<mandatory mode="2">true</mandatory>
 </item>
-
-<!--
-1. Phiên bản quan trọng không thể bỏ qua
-<mandatory>true</mandatory>
-
-2. Cập nhật tự động
-<mandatory mode="2">true</mandatory>
-
-3. Cập nhật khi phiên bản local nhỏ hơn cloud
-<mandatory minVersion="1.2.0.0">true</mandatory>
-
-4. Chạy ứng dụng sau khi cập nhật
-<executable>bin\AutoUpdaterTest.exe</executable>
-
-5. Kiểm tra mã MD5
-<checksum algorithm="MD5">Update file Checksum</checksum>
--->

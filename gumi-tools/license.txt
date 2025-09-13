@@ -1,72 +1,80 @@
 [
-    {
-        "id": "761294c8-d7b7-44a5-a3eb-d757baf53e15",
-        "key": "ALZ1Y-236Q6-J7HYF-0C00H-QQ3UC",
-        "issuer": {
-            "name": "Nguyễn Quang Tiệp",
-            "contactNumber": "(+84)90 29 65789",
-            "identificationNumber": "",
-            "email": "nguyenquangtiep222@gmail.com",
-            "address": "Thành phố Hà Nội, Việt Nam",
-            "note": "Quản trị viên"
-        },
-        "licensee": {
-            "name": "",
-            "contactNumber": "",
-            "identificationNumber": "",
-            "email": "",
-            "address": "",
-            "note": ""
-        },
-        "createdDate": "2025-08-01T00:00:00.0000000Z",
-        "fromDate": "2025-08-01T00:00:00.0000000Z",
-        "toDate": "2030-08-01T00:00:00.0000000Z",
-        "status": "active",
-        "modules": [
-            {
-                "id": "5388fcb4-642b-45dd-baba-71e5c31bc092",
-                "name": "Thuế điện tử",
-                "description": "",
-                "isEnabled": true
-            },
-            {
-                "id": "aa5d4d11-5b71-4a87-a03a-01b52ab500e5",
-                "name": "Hóa đơn điện tử",
-                "description": "",
-                "isEnabled": true
-            },
-            {
-                "id": "087894f5-eee4-467e-b554-da9f6bf2b104",
-                "name": "Thanh toán QR",
-                "description": "",
-                "isEnabled": true
-            },
-            {
-                "id": "408b8139-37a9-4b54-a01f-ea0bf24b3015",
-                "name": "Đồng bộ bảng tính",
-                "description": "",
-                "isEnabled": true
-            },
-            {
-                "id": "ce12f702-5e63-4583-bdd1-5663525791a5",
-                "name": "Chỉnh sửa tài liệu",
-                "description": "",
-                "isEnabled": true
-            },
-            {
-                "id": "eef0de4b-b5e3-4d97-a488-bf4f84a430bf",
-                "name": "Hướng dẫn sử dụng",
-                "description": "",
-                "isEnabled": true
-            }
-        ],
-        "binding": {
-            "hardwareIds": [
-                "178BFBFF00A40F41PPZGL00WBGO0C95CG2211G15",
-                "BFEBFBFF000806E9/BJJM0G2/CN1296374U0679/BJJM0G2"
-            ],
-            "maxMachines": 5
-        },
-        "signature": ""
-    }
+  {
+    "id": "e46bd888-8f5a-437c-9ce3-4a1b23bd6f9a",
+    "key": "RC2A1-J0FDL-H4JR6-8PLQ6-8TC1R",
+    "issuer": {
+      "name": "Nguyễn Quang Tiệp",
+      "contactNumber": "(+84)90 29 65789",
+      "identificationNumber": "",
+      "email": "ketoan.gumi@gmail.com",
+      "address": "..., Hà Nội, Việt Nam",
+      "note": "Quản trị viên"
+    },
+    "licensee": {
+      "name": "",
+      "contactNumber": "",
+      "identificationNumber": "",
+      "email": "",
+      "address": "",
+      "note": ""
+    },
+    "createdDate": "2025-08-01T00:00:00.0000000Z",
+    "fromDate": "2025-08-01T00:00:00.0000000Z",
+    "toDate": "2030-08-01T00:00:00.0000000Z",
+    "status": "active",
+    "modules": [
+      {
+        "isEnabled": true,
+        "id": "97302976-83ac-45b8-954e-2a6a8a1b43c9",
+        "name": "ETAX",
+        "description": "Thuế điện tử"
+      },
+      {
+        "isEnabled": true,
+        "id": "f6683f98-62e5-4164-a140-7d54f954efef",
+        "name": "EINVOICE",
+        "description": "Hóa đơn điện tử"
+      },
+      {
+        "isEnabled": true,
+        "id": "9b345c83-8391-494f-9c1a-d6089efbe0f9",
+        "name": "QRPAY",
+        "description": "Thanh toán QR"
+      },
+      {
+        "isEnabled": true,
+        "id": "ce08c8d9-ff12-4c10-837a-193a376332de",
+        "name": "SHEET_SYNC",
+        "description": "Đồng bộ bảng tính"
+      },
+      {
+        "isEnabled": true,
+        "id": "72e67ed8-c6ec-42b3-afb4-aade730b6362",
+        "name": "DOC_EDIT",
+        "description": "Chỉnh sửa tài liệu"
+      },
+      {
+        "isEnabled": true,
+        "id": "710a0ec2-0775-4777-b2d0-c5c0713da880",
+        "name": "HELP",
+        "description": "Hướng dẫn sử dụng"
+      }
+    ],
+    "machineBinding": {
+      "isEnabled": true,
+      "allowedValues": [
+        "178BFBFF00A40F41PPZGL00WBGO0C95CG2211G15"
+      ],
+      "maxAllowed": 5
+    },
+    "taxBinding": {
+      "isEnabled": true,
+      "allowedValues": [
+        "0111082696",
+        "0111082696-QL"
+      ],
+      "maxAllowed": 999999999
+    },
+    "signature": ""
+  }
 ]

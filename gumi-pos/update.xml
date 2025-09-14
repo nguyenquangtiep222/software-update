@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <item>
 	<version>1.0.0.1</version>
-	<url>https://raw.githubusercontent.com/nguyenquangtiep222/software-update/main/eshop-desktop/update.zip</url>
+	<url>https://raw.githubusercontent.com/nguyenquangtiep222/software-update/main/gumi-pos/update.zip</url>
 	<changelog>https://github.com/nguyenquangtiep222/software-update/releases</changelog>
 	<mandatory>false</mandatory>
 </item>

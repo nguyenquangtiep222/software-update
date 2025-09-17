@@ -233,82 +233,82 @@
     },
     "signature": ""
   },
-{
-  "id": "a0fd3a9a-1435-4bc5-b3f9-f0bdd1f08c96",
-  "key": "C9UIR-ZBW5V-9SW7D-JLVYF-VL4A3",
-  "issuer": {
-    "name": "Nguyễn Quang Tiệp",
-    "contactNumber": "(+84)90 29 65789",
-    "identificationNumber": "",
-    "email": "ketoan.gumi@gmail.com",
-    "address": "..., Hà Nội, Việt Nam",
-    "note": "Quản trị viên"
-  },
-  "licensee": {
-    "name": "KH000003",
-    "contactNumber": "",
-    "identificationNumber": "",
-    "email": "",
-    "address": "",
-    "note": ""
-  },
-  "createdDate": "2025-09-17T08:08:12.3926322Z",
-  "fromDate": "2025-09-17T08:08:12.3926322Z",
-  "toDate": "2030-10-02T08:08:12.3926322Z",
-  "status": "active",
-  "modules": [
-    {
-      "isEnabled": true,
-      "id": "7e5c1907-61ab-42ec-b5e8-6259869c98d1",
-      "name": "ETAX",
-      "description": "Thuế điện tử"
+  {
+    "id": "a0fd3a9a-1435-4bc5-b3f9-f0bdd1f08c96",
+    "key": "C9UIR-ZBW5V-9SW7D-JLVYF-VL4A3",
+    "issuer": {
+      "name": "Nguyễn Quang Tiệp",
+      "contactNumber": "(+84)90 29 65789",
+      "identificationNumber": "",
+      "email": "ketoan.gumi@gmail.com",
+      "address": "..., Hà Nội, Việt Nam",
+      "note": "Quản trị viên"
     },
-    {
-      "isEnabled": true,
-      "id": "a38830a6-5b4c-4c85-b73f-046fd1c702c7",
-      "name": "EINVOICE",
-      "description": "Hóa đơn điện tử"
+    "licensee": {
+      "name": "KH000003",
+      "contactNumber": "",
+      "identificationNumber": "",
+      "email": "",
+      "address": "",
+      "note": ""
     },
-    {
-      "isEnabled": true,
-      "id": "5df33911-70a7-49af-96c6-cbf4a6f34ca0",
-      "name": "QRPAY",
-      "description": "Thanh toán QR"
-    },
-    {
-      "isEnabled": true,
-      "id": "44ad22dc-8ce1-4e98-b0d0-0802159837ee",
-      "name": "SHEET_SYNC",
-      "description": "Đồng bộ bảng tính"
-    },
-    {
-      "isEnabled": true,
-      "id": "e7e62887-609b-491b-a124-8fd42f48934f",
-      "name": "DOC_EDIT",
-      "description": "Chỉnh sửa tài liệu"
-    },
-    {
-      "isEnabled": true,
-      "id": "b248194e-4709-404f-8244-01ad8620b0ac",
-      "name": "HELP",
-      "description": "Hướng dẫn sử dụng"
-    }
-  ],
-  "machineBinding": {
-    "isEnabled": true,
-    "allowedValues": [
-      "178BFBFF008A0F00T103NBCV00HF39MBT1N0CV132967039"
+    "createdDate": "2025-09-17T08:08:12.3926322Z",
+    "fromDate": "2025-09-17T08:08:12.3926322Z",
+    "toDate": "2030-10-02T08:08:12.3926322Z",
+    "status": "active",
+    "modules": [
+      {
+        "isEnabled": true,
+        "id": "7e5c1907-61ab-42ec-b5e8-6259869c98d1",
+        "name": "ETAX",
+        "description": "Thuế điện tử"
+      },
+      {
+        "isEnabled": true,
+        "id": "a38830a6-5b4c-4c85-b73f-046fd1c702c7",
+        "name": "EINVOICE",
+        "description": "Hóa đơn điện tử"
+      },
+      {
+        "isEnabled": true,
+        "id": "5df33911-70a7-49af-96c6-cbf4a6f34ca0",
+        "name": "QRPAY",
+        "description": "Thanh toán QR"
+      },
+      {
+        "isEnabled": true,
+        "id": "44ad22dc-8ce1-4e98-b0d0-0802159837ee",
+        "name": "SHEET_SYNC",
+        "description": "Đồng bộ bảng tính"
+      },
+      {
+        "isEnabled": true,
+        "id": "e7e62887-609b-491b-a124-8fd42f48934f",
+        "name": "DOC_EDIT",
+        "description": "Chỉnh sửa tài liệu"
+      },
+      {
+        "isEnabled": true,
+        "id": "b248194e-4709-404f-8244-01ad8620b0ac",
+        "name": "HELP",
+        "description": "Hướng dẫn sử dụng"
+      }
     ],
-    "maxAllowed": 5
-  },
-  "taxBinding": {
-    "isEnabled": false,
-    "allowedValues": [
-      "0123456789",
-      "0123456789-QL"
-    ],
-    "maxAllowed": 999999999
-  },
-  "signature": ""
-}
+    "machineBinding": {
+      "isEnabled": true,
+      "allowedValues": [
+        "178BFBFF008A0F00T103NBCV00HF39MBT1N0CV132967039"
+      ],
+      "maxAllowed": 5
+    },
+    "taxBinding": {
+      "isEnabled": false,
+      "allowedValues": [
+        "0123456789",
+        "0123456789-QL"
+      ],
+      "maxAllowed": 999999999
+    },
+    "signature": ""
+  }
 ]

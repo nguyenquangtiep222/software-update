@@ -167,7 +167,7 @@
       "note": "Quản trị viên"
     },
     "licensee": {
-      "name": "KH000002",
+      "name": "2",
       "contactNumber": "",
       "identificationNumber": "",
       "email": "",
@@ -245,7 +245,7 @@
       "note": "Quản trị viên"
     },
     "licensee": {
-      "name": "KH000003",
+      "name": "3",
       "contactNumber": "",
       "identificationNumber": "",
       "email": "",

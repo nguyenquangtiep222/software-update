@@ -70,8 +70,8 @@
     "taxBinding": {
       "isEnabled": false,
       "allowedValues": [
-        "0111082696",
-        "0111082696-QL"
+        "0123456789",
+        "0123456789-QL"
       ],
       "maxAllowed": 999999999
     },

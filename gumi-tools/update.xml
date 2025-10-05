@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <item>
-	<version>1.0.0.15</version>
+	<version>1.0.0.17</version>
 	<url>https://raw.githubusercontent.com/nguyenquangtiep222/software-update/main/gumi-tools/update.zip</url>
 	<changelog>https://github.com/nguyenquangtiep222/software-update/releases</changelog>
 	<mandatory>false</mandatory>

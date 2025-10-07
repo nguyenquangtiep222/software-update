@@ -533,7 +533,8 @@
       "isEnabled": true,
       "allowedValues": [
         "BFEBFBFF000906E9Default stringDefault string",
-        "BFEBFBFF000806EA/GJVV042/CN129667CN029F/GJVV042"
+        "BFEBFBFF000806EA/GJVV042/CN129667CN029F/GJVV042",
+        "BFEBFBFF000906EDDefault stringDefault string"
       ],
       "maxAllowed": 5
     },

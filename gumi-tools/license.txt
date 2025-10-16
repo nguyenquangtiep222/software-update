@@ -803,7 +803,7 @@
     },
     "createdDate": "2025-10-15T09:03:19.0895302Z",
     "fromDate": "2025-10-15T09:03:19.0895302Z",
-    "toDate": "2025-10-22T09:03:19.0895302Z",
+    "toDate": "2030-10-22T09:03:19.0895302Z",
     "status": "active",
     "modules": [
       {
@@ -855,6 +855,86 @@
       "allowedValues": [
         "0123456789",
         "0123456789-QL"
+      ],
+      "maxAllowed": 999999999
+    },
+    "signature": ""
+  },
+  {
+    "id": "99498985-fd76-4200-8b6b-475ddb40d73f",
+    "key": "5ZWCT-84SZO-673LK-RD3DQ-88856",
+    "issuer": {
+      "name": "Nguyễn Quang Tiệp",
+      "contactNumber": "(+84)90 29 65789",
+      "identificationNumber": "",
+      "email": "ketoan.gumi@gmail.com",
+      "address": "..., Hà Nội, Việt Nam",
+      "note": "Quản trị viên"
+    },
+    "licensee": {
+      "name": "12",
+      "contactNumber": "",
+      "identificationNumber": "",
+      "email": "",
+      "address": "",
+      "note": ""
+    },
+    "createdDate": "2025-10-16T07:42:43.1320546Z",
+    "fromDate": "2025-10-16T07:42:43.1320546Z",
+    "toDate": "2030-10-23T07:42:43.1320546Z",
+    "status": "active",
+    "modules": [
+      {
+        "isEnabled": true,
+        "id": "d25aa9cc-7392-4199-8612-762ea1feaf45",
+        "name": "ETAX",
+        "description": "Thuế điện tử"
+      },
+      {
+        "isEnabled": true,
+        "id": "1009aa61-1068-4f3c-977f-caa1375a877a",
+        "name": "EINVOICE",
+        "description": "Hóa đơn điện tử"
+      },
+      {
+        "isEnabled": true,
+        "id": "923bce06-a7d4-4dec-9df5-54ec51a5cdc5",
+        "name": "QRPAY",
+        "description": "Thanh toán QR"
+      },
+      {
+        "isEnabled": true,
+        "id": "eb6849f7-750b-4e3e-8b73-02e219ffd1d3",
+        "name": "SHEET_SYNC",
+        "description": "Đồng bộ bảng tính"
+      },
+      {
+        "isEnabled": true,
+        "id": "a20c40d8-0c18-4ff9-baca-604f8a1c5c46",
+        "name": "DOC_EDIT",
+        "description": "Chỉnh sửa tài liệu"
+      },
+      {
+        "isEnabled": true,
+        "id": "5e7e6a90-ff31-4caf-907e-a20c1b200143",
+        "name": "HELP",
+        "description": "Hướng dẫn sử dụng"
+      }
+    ],
+    "machineBinding": {
+      "isEnabled": true,
+      "allowedValues": [
+        "BFEBFBFF000A06A4CUO4XM2000LSAN0KD00101342E"
+      ],
+      "maxAllowed": 5
+    },
+    "taxBinding": {
+      "isEnabled": true,
+      "allowedValues": [
+        "4100933159",
+        "4100933159-QL",
+        "3801291589",
+        "3801291589-QL"
       ],
       "maxAllowed": 999999999
     },

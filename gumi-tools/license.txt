@@ -219,7 +219,8 @@
     "machineBinding": {
       "isEnabled": true,
       "allowedValues": [
-        "178BFBFF00860F01240335169501152System Serial Number"
+        "178BFBFF00860F01240335169501152System Serial Number",
+        "178BFBFF00A50F00250861465200349System Serial Number"
       ],
       "maxAllowed": 5
     },

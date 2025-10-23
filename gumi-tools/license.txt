@@ -570,7 +570,7 @@
     },
     "createdDate": "2025-10-03T12:53:40.9937608Z",
     "fromDate": "2025-10-03T12:53:40.9937608Z",
-    "toDate": "2030-10-03T12:53:40.9937608Z",
+    "toDate": "2025-10-03T12:53:40.9937608Z",
     "status": "active",
     "modules": [
       {
@@ -1085,6 +1085,84 @@
       "isEnabled": true,
       "allowedValues": [
         "178BFBFF008A0F00R833NBCV00MDJMMBR8N0CV20Z66435A"
+      ],
+      "maxAllowed": 5
+    },
+    "taxBinding": {
+      "isEnabled": false,
+      "allowedValues": [
+        "0123456789",
+        "0123456789-QL"
+      ],
+      "maxAllowed": 999999999
+    },
+    "signature": ""
+  },
+  {
+    "id": "4c268a1d-7768-4f8d-b879-9015d8391b8c",
+    "key": "5YRCR-4S1MS-T2QVJ-EOYAQ-S8R4O",
+    "issuer": {
+      "name": "Nguyễn Quang Tiệp",
+      "contactNumber": "(+84)90 29 65789",
+      "identificationNumber": "",
+      "email": "ketoan.gumi@gmail.com",
+      "address": "..., Hà Nội, Việt Nam",
+      "note": "Quản trị viên"
+    },
+    "licensee": {
+      "name": "15",
+      "contactNumber": "",
+      "identificationNumber": "",
+      "email": "",
+      "address": "",
+      "note": ""
+    },
+    "createdDate": "2025-10-23T13:34:24.5899118Z",
+    "fromDate": "2025-10-23T13:34:24.5899118Z",
+    "toDate": "2030-10-30T13:34:24.5899118Z",
+    "status": "active",
+    "modules": [
+      {
+        "isEnabled": true,
+        "id": "f52adf0f-af6c-4607-91c7-02edf2a1f1f1",
+        "name": "ETAX",
+        "description": "Thuế điện tử"
+      },
+      {
+        "isEnabled": true,
+        "id": "3ca0d0a9-23ca-418e-9d57-cf796ec09760",
+        "name": "EINVOICE",
+        "description": "Hóa đơn điện tử"
+      },
+      {
+        "isEnabled": true,
+        "id": "31fa0cea-66ca-4db7-93b1-718d7543ab1f",
+        "name": "QRPAY",
+        "description": "Thanh toán QR"
+      },
+      {
+        "isEnabled": true,
+        "id": "25503c37-5f57-4505-b1e0-076b3e879f2f",
+        "name": "SHEET_SYNC",
+        "description": "Đồng bộ bảng tính"
+      },
+      {
+        "isEnabled": true,
+        "id": "ee9c50a7-2d4d-4e58-aa1b-14a25acee5c2",
+        "name": "DOC_EDIT",
+        "description": "Chỉnh sửa tài liệu"
+      },
+      {
+        "isEnabled": true,
+        "id": "dbbade69-4696-4d6b-9b03-073da3e8c728",
+        "name": "HELP",
+        "description": "Hướng dẫn sử dụng"
+      }
+    ],
+    "machineBinding": {
+      "isEnabled": true,
+      "allowedValues": [
+        "BFEBFBFF000306A9BSN12345678901234567CCN0CV186562505     "
       ],
       "maxAllowed": 5
     },

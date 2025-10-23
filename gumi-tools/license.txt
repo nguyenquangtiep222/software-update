@@ -551,7 +551,7 @@
   },
   {
     "id": "20971adf-6e32-475e-9a31-2eeaf5f0b56c",
-    "key": "I6MBQ-P6BIZ-10OMX-IPJ8R-NHVIY",
+    "key": "5YRCR-4S1MS-T2QVJ-EOYAQ-S8R4O",
     "issuer": {
       "name": "Nguyễn Quang Tiệp",
       "contactNumber": "(+84)90 29 65789",
@@ -613,7 +613,7 @@
     "machineBinding": {
       "isEnabled": true,
       "allowedValues": [
-        ""
+        "BFEBFBFF000306A9BSN12345678901234567CCN0CV186562505     "
       ],
       "maxAllowed": 5
     },
@@ -1100,7 +1100,7 @@
   },
   {
     "id": "4c268a1d-7768-4f8d-b879-9015d8391b8c",
-    "key": "5YRCR-4S1MS-T2QVJ-EOYAQ-S8R4O",
+    "key": "I6MBQ-P6BIZ-10OMX-IPJ8R-NHVIY",
     "issuer": {
       "name": "Nguyễn Quang Tiệp",
       "contactNumber": "(+84)90 29 65789",
@@ -1162,7 +1162,7 @@
     "machineBinding": {
       "isEnabled": true,
       "allowedValues": [
-        "BFEBFBFF000306A9BSN12345678901234567CCN0CV186562505     "
+        ""
       ],
       "maxAllowed": 5
     },

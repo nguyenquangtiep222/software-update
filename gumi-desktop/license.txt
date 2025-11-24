@@ -1,1 +1,80 @@
-{}
+[
+  {
+    "id": "e46bd888-8f5a-437c-9ce3-4a1b23bd6f9a",
+    "key": "RC2A1-J0FDL-H4JR6-8PLQ6-8TC1R",
+    "issuer": {
+      "name": "Nguyễn Quang Tiệp",
+      "contactNumber": "(+84)90 29 65789",
+      "identificationNumber": "",
+      "email": "contact@gumicloud.com",
+      "address": "..., Hà Nội, Việt Nam",
+      "note": ""
+    },
+    "licensee": {
+      "name": "1",
+      "contactNumber": "",
+      "identificationNumber": "",
+      "email": "",
+      "address": "",
+      "note": ""
+    },
+    "createdDate": "2025-08-01T00:00:00.0000000Z",
+    "fromDate": "2025-08-01T00:00:00.0000000Z",
+    "toDate": "2030-08-01T00:00:00.0000000Z",
+    "status": "active",
+    "modules": [
+      {
+        "isEnabled": true,
+        "id": "97302976-83ac-45b8-954e-2a6a8a1b43c9",
+        "name": "ETAX",
+        "description": "Thuế điện tử"
+      },
+      {
+        "isEnabled": true,
+        "id": "f6683f98-62e5-4164-a140-7d54f954efef",
+        "name": "EINVOICE",
+        "description": "Hóa đơn điện tử"
+      },
+      {
+        "isEnabled": true,
+        "id": "9b345c83-8391-494f-9c1a-d6089efbe0f9",
+        "name": "QRPAY",
+        "description": "Thanh toán QR"
+      },
+      {
+        "isEnabled": true,
+        "id": "ce08c8d9-ff12-4c10-837a-193a376332de",
+        "name": "SHEET_SYNC",
+        "description": "Đồng bộ bảng tính"
+      },
+      {
+        "isEnabled": true,
+        "id": "72e67ed8-c6ec-42b3-afb4-aade730b6362",
+        "name": "DOC_EDIT",
+        "description": "Chỉnh sửa tài liệu"
+      },
+      {
+        "isEnabled": true,
+        "id": "710a0ec2-0775-4777-b2d0-c5c0713da880",
+        "name": "HELP",
+        "description": "Hướng dẫn sử dụng"
+      }
+    ],
+    "machineBinding": {
+      "isEnabled": true,
+      "allowedValues": [
+        "178BFBFF00A40F41PPZGL00WBGO0C95CG2211G15"
+      ],
+      "maxAllowed": 5
+    },
+    "taxBinding": {
+      "isEnabled": false,
+      "allowedValues": [
+        "0123456789",
+        "0123456789-QL"
+      ],
+      "maxAllowed": 999999999
+    },
+    "signature": ""
+  }
+]

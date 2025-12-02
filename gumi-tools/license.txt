@@ -1566,5 +1566,83 @@
       "maxAllowed": 999999999
     },
     "signature": ""
+  },
+  {
+    "id": "baff3c19-b68b-40d6-81d8-08a617085bb2",
+    "key": "LWFJF-ZWXHQ-GB7CS-30OMX-J7ZBR",
+    "issuer": {
+      "name": "Nguyễn Quang Tiệp",
+      "contactNumber": "(+84)90 29 65789",
+      "identificationNumber": "",
+      "email": "ketoan.gumi@gmail.com",
+      "address": "..., Hà Nội, Việt Nam",
+      "note": "Quản trị viên"
+    },
+    "licensee": {
+      "name": "21",
+      "contactNumber": "",
+      "identificationNumber": "",
+      "email": "",
+      "address": "",
+      "note": ""
+    },
+    "createdDate": "2025-12-02T03:53:18.7956109Z",
+    "fromDate": "2025-12-02T03:53:18.7956109Z",
+    "toDate": "2030-12-09T03:53:18.7956109Z",
+    "status": "active",
+    "modules": [
+      {
+        "isEnabled": true,
+        "id": "d92b5b9d-95f3-4a18-9ca6-66fc4b09c3b9",
+        "name": "ETAX",
+        "description": "Thuế điện tử"
+      },
+      {
+        "isEnabled": true,
+        "id": "da2e69ac-c4c2-4474-8c86-60eb9b427515",
+        "name": "EINVOICE",
+        "description": "Hóa đơn điện tử"
+      },
+      {
+        "isEnabled": true,
+        "id": "2c9654cf-ed6c-403a-98b7-96685661e266",
+        "name": "QRPAY",
+        "description": "Thanh toán QR"
+      },
+      {
+        "isEnabled": true,
+        "id": "71ff0063-e0d8-4447-8e3f-875f3ba88628",
+        "name": "SHEET_SYNC",
+        "description": "Đồng bộ bảng tính"
+      },
+      {
+        "isEnabled": true,
+        "id": "7c9978ef-db6e-40ab-a134-a51a3e15816e",
+        "name": "DOC_EDIT",
+        "description": "Chỉnh sửa tài liệu"
+      },
+      {
+        "isEnabled": true,
+        "id": "79dd15d0-2491-47a9-b997-650c4104b09d",
+        "name": "HELP",
+        "description": "Hướng dẫn sử dụng"
+      }
+    ],
+    "machineBinding": {
+      "isEnabled": true,
+      "allowedValues": [
+        "BFEBFBFF000806EBP20644V3P20644V3"
+      ],
+      "maxAllowed": 5
+    },
+    "taxBinding": {
+      "isEnabled": false,
+      "allowedValues": [
+        "0123456789",
+        "0123456789-QL"
+      ],
+      "maxAllowed": 999999999
+    },
+    "signature": ""
   }
 ]

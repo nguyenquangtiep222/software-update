@@ -2032,10 +2032,10 @@
       "maxAllowed": 5
     },
     "taxBinding": {
-      "isEnabled": false,
+      "isEnabled": true,
       "allowedValues": [
-        "0123456789",
-        "0123456789-QL"
+        "0111106996",
+        "0111106996-QL"
       ],
       "maxAllowed": 999999999
     },

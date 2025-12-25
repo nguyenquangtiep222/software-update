@@ -1956,5 +1956,89 @@
       "maxAllowed": 999999999
     },
     "signature": ""
+  },
+  {
+    "id": "409849cd-c02d-495b-8210-8cd8ebdffa35",
+    "key": "5CUUH-QL1OA-2JERJ-4JMF5-PGNIU",
+    "issuer": {
+      "name": "Nguyễn Quang Tiệp",
+      "contactNumber": "(+84)90 29 65789",
+      "identificationNumber": "",
+      "email": "ketoan.gumi@gmail.com",
+      "address": "..., Hà Nội, Việt Nam",
+      "note": "Quản trị viên"
+    },
+    "licensee": {
+      "name": "26",
+      "contactNumber": "",
+      "identificationNumber": "",
+      "email": "",
+      "address": "",
+      "note": ""
+    },
+    "createdDate": "2025-12-25T08:44:48.2889702Z",
+    "fromDate": "2025-12-25T08:44:48.2889702Z",
+    "toDate": "2030-12-25T08:44:48.2889702Z",
+    "status": "active",
+    "modules": [
+      {
+        "isEnabled": true,
+        "id": "120ed391-dfde-4431-8189-5e57aafc5f91",
+        "name": "ETAX",
+        "description": "Thuế điện tử"
+      },
+      {
+        "isEnabled": true,
+        "id": "2e073187-878a-4577-ab17-ff0bd3719e48",
+        "name": "EINVOICE",
+        "description": "Hóa đơn điện tử"
+      },
+      {
+        "isEnabled": true,
+        "id": "ad1c9740-c066-4a8d-9e98-460dbb79b4c6",
+        "name": "ESHOP",
+        "description": "Cửa hàng điện tử"
+      },
+      {
+        "isEnabled": true,
+        "id": "36b39a9e-fba1-4d7e-9c97-20e82e79940c",
+        "name": "QRPAY",
+        "description": "Thanh toán QR"
+      },
+      {
+        "isEnabled": true,
+        "id": "a627019b-eb5b-433d-9d99-bff7b5462fa1",
+        "name": "SHEET_SYNC",
+        "description": "Đồng bộ bảng tính"
+      },
+      {
+        "isEnabled": true,
+        "id": "428a77b2-16f3-434a-a701-4c8276a9b67a",
+        "name": "DOC_EDIT",
+        "description": "Chỉnh sửa tài liệu"
+      },
+      {
+        "isEnabled": true,
+        "id": "485ae25d-a558-484f-aae8-c2fa1c876f91",
+        "name": "HELP",
+        "description": "Hướng dẫn sử dụng"
+      }
+    ],
+    "machineBinding": {
+      "isEnabled": true,
+      "allowedValues": [
+        "BFEBFBFF000306C3  "
+      ],
+      "maxAllowed": 5
+    },
+    "taxBinding": {
+      "isEnabled": false,
+      "allowedValues": [
+        "0123456789",
+        "0123456789-QL"
+      ],
+      "maxAllowed": 999999999
+    },
+    "signature": ""
   }
 ]

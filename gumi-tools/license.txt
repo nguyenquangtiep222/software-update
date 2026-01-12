@@ -1085,7 +1085,7 @@
     "machineBinding": {
       "isEnabled": true,
       "allowedValues": [
-        "178BFBFF008A0F00R833NBCV00MDJMMBR8N0CV20Z66435A"
+        "BFEBFBFF000C0652T520NBCX004PXXMBT5N0CX03U52221D"
       ],
       "maxAllowed": 5
     },

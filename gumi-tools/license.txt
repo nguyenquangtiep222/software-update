@@ -1631,7 +1631,7 @@
     "machineBinding": {
       "isEnabled": true,
       "allowedValues": [
-        "BFEBFBFF00090675Default stringDefault string"
+        "BFEBFBFF000A0653220298580805001System Serial Number"
       ],
       "maxAllowed": 5
     },
